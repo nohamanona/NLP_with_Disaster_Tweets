@@ -1,0 +1,18 @@
+1. Capital and small letter
+  大文字のdisaster wordの後に大文字の固有名詞が付かなければ、
+  disaster以外のwordの可能性が高い
+
+2. Verb
+  動詞に特徴的なワードが含まれる場合があるが、
+  もちろん例外もある。
+
+3. combination
+  関連ワードが複数含まれていればdisaster tweet
+  
+  ex)
+  〇 The house was destroyed by Hurricane Catrina
+  × The Hurricanes played the Lions yesterday
+  × The Hurricanes destroyed the Lions yesterday
+  〇 The hurricanes brought this stomy whether
+  
+
