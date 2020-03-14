@@ -1,3 +1,32 @@
+03/14 記
+target <-> keyword <-> text
+
+target <-> keyword 普通に相関を取ってみる
+keyword <-> text   NLP+共起ネットワーク(Jaccard係数)
+
+・stanfordnlpをいれてみる。
+
+https://www.pytry3g.com/entry/stanfordnlp
+> conda install pytorch torchvision cpuonly -c pytorch
+> pip install stanfordnlp
+> python
+
+>>> import stanfordnlp
+>>> stanfordnlp.download
+
+
+・共起ネットワークが役立ちそう
+> pip install pyvis
+#描画用にmatplotlib入れておく。
+> conda install matplotlib
+
+以下を参考。
+https://dev.classmethod.jp/etc/mrmo-20190930/
+https://www.dskomei.com/entry/2019/04/07/021028
+
+
+
+---------------------------
 1. Capital and small letter
   大文字のdisaster wordの後に大文字の固有名詞が付かなければ、
   disaster以外のwordの可能性が高い
